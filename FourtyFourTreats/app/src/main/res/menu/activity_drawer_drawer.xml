@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/profile"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:title="Avatar" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/friends"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/history"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/settings"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/log_out"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:title="logout" />
+
+
+    </group>
+
+
+
+</menu>
